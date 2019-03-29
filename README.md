@@ -20,3 +20,17 @@ You might need to create a JavaScript/Rest developer token from HERE Developer P
   theme={this.state.theme}
 />
 ```
+
+### Deploying to firebase
+
+Perform these steps to deploy to firebase 
+
+``` 
+ npm install -g firebase-tools
+ firebase login
+ firebase init
+ firebase deploy
+ 
+ Demo -  https://heremap-themes.firebaseapp.com
+ 
+ ```

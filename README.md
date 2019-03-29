@@ -30,7 +30,8 @@ Perform these steps to deploy to firebase
  firebase login
  firebase init
  firebase deploy
- 
- Demo -  https://heremap-themes.firebaseapp.com
- 
  ```
+ 
+Demo App Hosted on Firebase -  https://heremap-themes.firebaseapp.com
+ 
+

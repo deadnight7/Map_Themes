@@ -26,6 +26,7 @@ class Map extends Component {
         this.platform = new window.H.service.Platform(this.state);
 
         var layer = this.platform.createDefaultLayers();
+        
         var container = document.getElementById('here-map');
 
         this.map = new window.H.Map(container, layer.normal.map, {
@@ -38,6 +39,9 @@ class Map extends Component {
         var behavior = new window.H.mapevents.Behavior(events);
         // eslint-disable-next-line
         var ui = new window.H.ui.UI.createDefault(this.map, layer)
+        
+        this.changeTheme('normal.day.grey', "");
+
     }
 
     changeTheme(theme, style) {
@@ -59,8 +63,9 @@ class Map extends Component {
     }
     
     render() {
+        
         return (
-            <div id="here-map" style={{ width: '100%', height: '400px', background: 'grey' }} />
+            <div id="here-map" style={{ width: '100%', height: '400px', background: 'white' }} />
         );
     }
 }

@@ -3,8 +3,8 @@
 class ThemeSelector extends Component {
     render() {
         var themes = [
-            'normal.day',
             'normal.day.grey',
+            'normal.day',
             'normal.day.transit',
             'normal.night',
             'normal.night.grey',
